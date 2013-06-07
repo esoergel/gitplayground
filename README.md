@@ -5,16 +5,13 @@ The instructions directory contains 5 files that walk through git commands that 
 
 #### Instructions:
 
- 1. [Getting Started](instructions/1-getting_started.md)
-     
-    How to get a copy of this repo to work with on your computer.
+ 1. [Getting Started](instructions/1-getting_started.md) - How to get a copy of this repo to work with on your computer.
 
- 1. [Poking Around](instructions/2-poking_around.md)
-    
+ 1. [Poking Around](instructions/2-poking_around.md) - 
     Git basics - branching, saving changes
 
  1. [Merging and History](instructions/3-merging_and_history.md)
-    
+ 
     Combining branches, poking through the commit history and checking out previous versions of the code.
 
  1. [Collaboration Concepts](instructions/4-collaboration_concepts.md)
