@@ -19,3 +19,4 @@ You should now be looking at github.com/yourusername/gitplayground.  Right under
         ls
 
 That's it for now, this is the procedure to get a copy of any code from GitHub that you'd like to contribute to.
+Next up, [poking around](2-poking_around.md).

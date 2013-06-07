@@ -43,3 +43,4 @@ Long-lived feature branches can regularly pull updates from develop as other fea
 
 Most of the time, merges will Just Work.  If two changes are made in the same place, and they're not one after the other, git might not be able to tell what to do, and you'll get a merge conflict.  Git will complain, so you go to the relevant section of code, resolve the conflict, and commit the resolution.  The fewer people working on a branch, the less likely this is to happen, that's one reason you should branch and branch again.
 
+Next up, commands you need for [collaborating](5-collaborating.md)

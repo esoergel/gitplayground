@@ -102,19 +102,8 @@ Git marks the section where there's a conflict.  "<<<<<<< HEAD" marks the start 
 Run `git log` and you can see that the commits from both branches appear in the history.
 
 
-Okay, that's the basics of working with git locally.  If anything is unclear, or if I'm missing anything please let me know.  You should be able to make changes, look at previous versions, hop around branches, and merge changes at this point.  The next files talk about some techniques to deal with having multiple contributors, and using git as part of a team (that's when branching and merging become essential).
+Okay, that's the basics of working with git locally.  If anything is unclear, or if I'm missing anything please let me know.  You should be able to make changes, look at previous versions, hop around branches, and merge changes at this point.
 
-
-
-
-
-
-
-
-
-
-
-
-
+The next files talk about some techniques to deal with having multiple contributors, and using git as part of a team (that's when branching and merging become essential).  Continue on to [collaboration concepts](4-collaboration_concepts.md).
 
 

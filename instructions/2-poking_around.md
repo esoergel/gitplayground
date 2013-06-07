@@ -72,7 +72,7 @@ To incorporate changes, you need to stage them and then commit the staged change
 
 You may get a message from git about configuring your name and email address.  Follow those instructions if necessary.  
 
-
+Continue on to read about [merging and commit histories](3-merging_and_history.md).
 
 
 
