@@ -79,8 +79,30 @@ You may have noticed another branch called problem_branch in the repository.  Th
 Good, we're on develop, where we want to incorporate the changes.  Merge in the problem branch.
 
     $ git merge problem_branch
+    Auto-merging problem_file.txt
+    CONFLICT (content): Merge conflict in problem_file.txt
+    Automatic merge failed; fix conflicts and then commit the result.
+    
+Craaaaaap. Okay, let's survey the damage. Open up problem_file.txt.  Here's the relevant portion:
+
+    Fap small batch yr raw denim wayfarers cornhole four loko, chillwave chambray banjo McSweeney's.
+    <<<<<<< HEAD
+    Wolf seitan yr salvia, tote bag next level readymade gluten-free art party.
+    =======
+    Helvetica jean shorts ugh beard, 90's church-key High Life.
+    Photo booth authentic flexitarian Bushwick, kale chips Portland biodiesel.
+    >>>>>>> problem_branch
+    Odd Future cray master cleanse, actually tattooed banh mi shoreditch Tonx.
+
+Git marks the section where there's a conflict.  "<<<<<<< HEAD" marks the start of the version that appears in HEAD (the branch you're currently on), "======" indicates where the version from problem branch begins, and ">>>>>>> problem_branch" marks the end of the conflict.  In this case, the file just appears to be a list of sentences randomly generated from hipsteripsum.me, so we can just remove the three lines added by git and add/commit the changes, thus marking the conflict as resolved.
+
+    git add problem_file.txt
+    git commit -m "resolved merge conflict in problem_file.txt"
+
+Run `git log` and you can see that the commits from both branches appear in the history.
 
 
+Okay, that's the basics of working with git locally.  If anything is unclear, or if I'm missing anything please let me know.  You should be able to make changes, look at previous versions, hop around branches, and merge changes at this point.  The next files talk about some techniques to deal with having multiple contributors, and using git as part of a team (that's when branching and merging become essential).
 
 
 

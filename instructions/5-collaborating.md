@@ -44,6 +44,7 @@ Now it's time to submit changes. You can run `git branch` to see what branches y
     git checkout develop 
 
 Pull any updates from the appropriate branch of the master remote repo, branch "develop" on "upstream" in this case.
+`git pull` is actually just a shortcut for `git fetch` and `git merge`.  When you pull from a remote repository, you *are* performing a merge, so the behavior is identical to merging locally.
 
     git pull upstream develop 
 

@@ -1,4 +1,4 @@
-## Branching and Collaboration: Concepts
+## BRANCHING AND COLLABORATION: CONCEPTS
 
 This file doesn't contain any code, it's a general look at the ideas behind branching models and the decentralized nature of git.
 
