@@ -13,10 +13,16 @@ You should now be looking at github.com/yourusername/gitplayground.  Right under
 
  1. `cd` to the directory where you'd like to store the project (it'll automatically make a gitplayground directory inside there).
  2. run the clone command:
-        git clone https://github.com/yourusername/gitplayground.git
+
+    `git clone https://github.com/yourusername/gitplayground.git`
+ 3. get a copy of all the local branches by running setup.sh
+
+    `./setup.sh`
  3. `cd` into the directory and look around.
-        cd gitplayground
-        ls
+
+    `cd gitplayground`
+
+    `ls`
 
 That's it for now, this is the procedure to get a copy of any code from GitHub that you'd like to contribute to.
 Next up, [poking around](2-poking_around.md).
