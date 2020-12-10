@@ -1,2 +1,4 @@
 I just started this repo, and this is the first file I added.
+<<<<<<< HEAD
 Modified test
+
